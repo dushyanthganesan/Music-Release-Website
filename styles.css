@@ -23,7 +23,7 @@ body {
 .linkbuttons {
     text-align: center;
     margin: 0 auto;
-    width: 30rem;
+    width: calc(20rem + 10vw);
     padding: 5%; 
 }
 
