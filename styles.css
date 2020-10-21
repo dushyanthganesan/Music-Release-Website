@@ -7,7 +7,7 @@ body {
 	background-size: 105% 105%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow: hidden;
+	overflow: visible;
 	
 	margin-top: 5%;
 	text-align: center;
@@ -23,7 +23,7 @@ body {
 .linkbuttons {
     text-align: center;
     margin: 0 auto;
-    width: 20%;
+    width: 30rem;
     padding: 5%; 
 }
 
@@ -135,14 +135,9 @@ button:focus {
 }
 
 
-
-
-.wiw:hover,
-.wiw:focus {
-  animation: grow ease-in-out 1s alternate 2 forwards;
-  -webkit-animation: grow ease-in-out 1s alternate 2 forwards;
+.wiw {
+	max-width: 400px;
 }
-
 
 
 @keyframes grow {
