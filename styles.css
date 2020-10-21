@@ -50,11 +50,7 @@ button:focus {
 }
 
 .hands {
-	animation-delay: 10s;
-	-webkit-animation-delay: 10s;
-	-moz-animation-delay: 10s;
-	-o-animation-delay: 10s;
-	-ms-zoom-animation-delay: 10s;
+
 	position: fixed;
 	bottom: 0;
 	right: 5%;
