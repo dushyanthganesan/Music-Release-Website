@@ -7,7 +7,7 @@ body {
 	background-size: 105% 105%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow: visible;
+	overflow: hidden;
 	
 	margin-top: 5%;
 	text-align: center;
@@ -137,7 +137,7 @@ button:focus {
 
 .wiw {
 	max-width: 700px;
-	margin-top: 5%;
+	margin-top: calc(3rem - 2vw);
 }
 
 
